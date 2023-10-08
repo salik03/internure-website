@@ -1,0 +1,221 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/54a2502f80.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ 
+    <section id="header">
+        <div class="header container">
+          <div class="nav-bar">
+            <div class="brand">
+              <img src="./images/drop.png" alt="" style="height: 130px; width: 100px; margin-top: 10px">
+            </div>
+            <div class="nav-list">
+              <div class="hamburger">
+                <div class="bar"></div>
+              </div>
+              <ul>
+                
+                <li><a href="" data-after="#Home">Home</a></li>
+                <li><a href="" data-after=".services">Services</a></li>
+               
+                <li><a href="" data-after=".inter">About</a></li>
+                <li><a href="" data-after=".about">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section class = "parallax" style="margin-top: 400px;">
+        <h2 id = "text">
+            Connecting<br>
+            you to
+            <br>
+            your
+            <br>
+            Future
+            <br>
+            <button id="myButton">Discover</button>
+        </h2>
+       
+        <img src="./images/Group 26.png" id="gate-left" style="height: 338px; width: 500px; margin-left: 1100px; margin-top: 400px;">
+        
+        <img src="./images/Group 27.png" id="gate-right" style="height: 338px; width: 500px; margin-left: -200px; margin-top: 400px;">
+       
+        
+        
+    </section>
+    <
+    <div class="inter">
+        <img src="./images/Group 7.png" alt="" style= "height: 200px; width: 100px;">
+        <h1>We are Internure</h1>
+        <hr style="width:100%;">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+          Cupiditate earum tenetur aspernatur amet possimus tempore<br> 
+          dolores suscipit est. Blanditiis dicta consectetur sit <br>
+          praesentium magni aperiam. Minus incidunt aspernatur amet a<br>
+          tque, consequuntur odit libero id placeat ea sapiente, earum <br>
+          labore architecto exercitationem, iste beatae nostrum. Distinctio<br>
+           natus magni assumenda ipsa laborum?Lorem ipsum dolor sit amet consectetur <br>
+           adipisicing elit. Necessitatibus aspernatur quibusdam ex ducimus voluptatum <br>
+           rem temporibus, expedita voluptatibus! Esse corrupti deleniti eaque quibusdam <br>
+           adipisci quasi aspernatur eveniet laboriosam accusamus voluptatum.<br><br><br><br><br><br><br><br></p>
+           <div class="container" style=" margin-bottom: 10px; margin-top: -100px;">
+                
+         
+            <div class="container">
+                
+              <div class="serve">
+                  <div>
+                      <div class="stats__count"></div>
+                      <h2>Visitors</h2>
+                      <br>
+                      <h1 id = "count" style="font-size: 30px; margin-bottom: 10px;"></h1>
+                      <script>
+    
+                        const countE1 = document.getElementById("count");
+                        countvisits();
+                        function countvisits(){
+                            fetch('https://api.countapi.xyz/update/laptop/mouse/?amount=1')
+                            .then((res) => res.json())
+                            .then((res) => {
+                                countE1.innerHTML = res.value-79400;
+                            })
+                        }
+                    </script>
+                      
+                  </div>
+                  <div>
+                    <div class="stats__count">Clients</div>
+                      <h2>000</h2>
+                      <br>
+                      
+                  </div>
+                  <div>
+                    <div class="stats__count">Projects</div>
+                      <h2 style="font-size: 30px;">000</h2>
+                      <br>
+                      <h1 id = "count"></h1>
+                  </div>
+              </div>
+      </div> 
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+                <div>
+                    
+                    <h2><img src="images/Vector.png" alt="" style= "height: 80px; width: 70px;"></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias expedita, natus quaerat amet dignissimos odit, adipisci molestiae, eveniet minima laudantium dolorum! Veritatis tenetur ducimus ea neque, cupiditate eligendi quod at.</p>
+                    <br>
+                    <button  id="myButtonn" style="margin-top: 25px;">discover</button>
+                </div>
+                <div>
+                    
+                    <h2><img src="./images/group.png" alt="" style= "height: 80px; width: 70px;"></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias expedita, natus quaerat amet dignissimos odit, adipisci molestiae, eveniet minima laudantium dolorum! Veritatis tenetur ducimus ea neque, cupiditate eligendi quod at.</p>
+                    <button  id="myButtonn" style="margin-top: 30px;">discover</button>
+                </div>
+                <div>
+                    
+                    <h2><img src="./images/drop1.png" alt="" style= "height: 80px; width: 70px; "></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias expedita, natus quaerat amet dignissimos odit, adipisci molestiae, eveniet minima laudantium dolorum! Veritatis tenetur ducimus ea neque, cupiditate eligendi quod at.</p>
+                    <button  id="myButtonn" style="margin-top: 30px;">discover</button>
+                </div>
+            </div>
+        </div>
+
+   <div class = "about">
+    <h1 class = "sub-title"></h1>
+
+   </div>
+    
+          
+                
+
+   
+    <div class="containerr" style="margin-top: 300px;">
+        <span class="big-circle"></span>
+        <img src="images/shape.png" class="square" alt="" />
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's Get in Touch</h3>
+            <p class="text">
+              
+            </p>
+  
+            <div class="info">
+              <div class="information">              
+              </div>
+              <div class="information">
+                <a href="mailto:example@email.com" target="_blank">
+                <img src="images/email.png" class="icon" alt="" />
+                <p style="color:black; display:flex;">internure@gmail.com</p>
+                </a>
+              </div>
+              <div class="information">
+                <img src="images/phone.png" class="icon" alt="" style="color:black;" />
+                <p>+91 93191 11367</p>
+              </div>
+            </div>
+  
+            <div class="social-media">
+              <p>Connect with us :</p>
+              <div class="social-icons">
+                <a href="https://chat.whatsapp.com/JItLD1wM4m7EZ4PW81tL4M" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/internure_official/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/internure/" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+  
+            <form action="index.html" autocomplete="off">
+              <h3 class="title">Contact us</h3>
+              <div class="input-containerr">
+                <input type="text" name="name" class="input" />
+                <label for="">Name</label>
+                <span>name</span>
+              </div>
+              <div class="input-containerr">
+                <input type="email" name="email" class="input" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-containerr">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-containerr textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+  <marquee behavior="scroll" direction="left" style="animation-duration: 1s;">This website works best with laptop or desktop</marquee>
+    
+    <script src = "index.js"></script>
+</body>
+</html>
